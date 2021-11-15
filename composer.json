@@ -10,12 +10,12 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Michaeldrennen\\Excel\\": "src/"
+      "MichaelDrennen\\Excel\\": "src/"
     }
   },
   "authors": [
     {
-      "name": "michaeldrennen",
+      "name": "Michael Drennen",
       "email": "michaeldrennen74@gmail.com"
     }
   ],

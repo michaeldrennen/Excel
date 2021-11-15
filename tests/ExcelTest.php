@@ -426,7 +426,8 @@ class ExcelTest extends TestCase {
 
         $spreadsheet = $reader->load( $pathToFile );
         $RGB         = $spreadsheet->getSheet( 0 )->getStyle( 'A1' )->getFill()->getStartColor()->getRGB();
-        $this->assertTrue( $RGB === 'A0A0' );
+
+        $this->assertTrue( $RGB === '000080' );
 
 
     }

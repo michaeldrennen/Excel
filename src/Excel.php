@@ -14,8 +14,7 @@ use PhpOffice\PhpSpreadsheet\Worksheet\PageSetup;
 use Exception;
 
 /**
- * Class Excel
- * @package DPRMC
+ *
  */
 class Excel {
 
